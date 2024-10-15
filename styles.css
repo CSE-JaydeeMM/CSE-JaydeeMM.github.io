@@ -1,10 +1,10 @@
 body {
-    background-color:crimson;
+    background-color:rgb(187, 56, 83);
     font-family:Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color:gray;
+    color:rgb(0, 0, 0);
     text-align: center;
 }
 
