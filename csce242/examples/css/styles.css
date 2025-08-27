@@ -1,0 +1,42 @@
+/*Structures */
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background:url("images/background.jpeg");
+    background-size: cover;   
+}
+
+#content {
+    background-color: rgb(107, 186, 231);
+    width: 70%; 
+    margin:auto;  /* center */
+    padding: 1%;  /* get text away from the edge */
+    border-radius: 5px; /* round edges */
+
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+}
+
+td ,th {
+    border: 1px solid black;
+    padding: 5px 10px; /* Top and Bottom 5, right and left 10*/
+}
+th{
+    background-color: crimson;
+}
+
+/*image*/
+#girafe {
+    box-shadow: 7px 7px navy;
+}
+
+
+/* Typography */
+h1{
+    color:lightgray;
+}
+h2{
+    color:crimson;
+}
