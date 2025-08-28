@@ -1,4 +1,7 @@
-body{
+
+body {
     font-family: 'Times New Roman', Times, serif;
-    background-color:gray;
+    background:url("images/background.jpg");
+    background-size: cover;
+
 }
