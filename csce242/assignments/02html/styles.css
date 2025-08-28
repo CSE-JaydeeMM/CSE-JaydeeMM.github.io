@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:url("images/track.jpg");
+    background-size: cover;
+}
+
+h1{
+    color:#F22E3E;
+    text-align: center;
+}
+
+#content {
+    background-color: rgb(26, 137, 234);
+    color: rgb(253, 253, 253);
+    width: 70%;
+    margin: 140px auto 20px auto;
+    padding: 1%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#racers{
+   position: absolute;
+    display: block;
+    top:20px;
+    right: 20px;
+    margin-bottom: 20px;
+    
+}
+
+Table {
+    border-collapse: collapse;
+    margin-top: 40px;
+    margin: 20px auto;
+}
+
+td {
+    background-color: rgb(26, 137, 234);
+}
+
+th {
+    background-color: #F22E3E;
+}
+td,th {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+#cars {
+    display: block;
+    width: 300px;
+    height: auto;
+}
