@@ -1,0 +1,18 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background:url("images/background.jpg");
+    background-size: cover;
+
+}
+
+    a {
+    color:rgb(255, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#intro {
+    color:navy;
+    background-color: lightgray;
+}
