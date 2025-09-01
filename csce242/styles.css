@@ -12,11 +12,11 @@ body {
     text-decoration: none;
 }
 
-#intro {
+#content{
     color:navy;
     
 }
-
-h2{
-    color:navy;
+/*Typography*/
+#main-header h1{
+    text-align: center;
 }
