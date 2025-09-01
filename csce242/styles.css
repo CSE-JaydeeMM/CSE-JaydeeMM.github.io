@@ -3,7 +3,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background:url("images/background.jpg");
     background-size: cover;
-
+    color:navy;
 }
 
     a {
@@ -12,11 +12,32 @@ body {
     text-decoration: none;
 }
 
-#content{
-    color:navy;
-    
+#main-content{
+    padding: 5px;
+
+    .col1of2{
+        background-color: bisque;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px navy ;
+        text-align: center;
+    }
 }
-/*Typography*/
+
+/* Typography */
+h3, h2 {
+    text-align: center;
+}
 #main-header h1{
     text-align: center;
+}
+
+/*Larger Resolution */
+@media (min-width:900px) {
+   #main-nav ul, #flex-container{
+    display: flex;
+   }
+    .col1of2{
+    flex: 1;
+   }
 }
