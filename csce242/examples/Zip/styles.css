@@ -237,6 +237,20 @@ footer p {
     width:100%;
     height:500px;
 }
+.clicked {
+    background: magenta;
+    color: white;
+}
+.happy {
+    background: yellow;
+    color: black;
+    border: 2px dotted orange;
+}
+.sad {
+    background: blue;
+    color: white;
+    border: 2px solid skyblue;
+}
 
 
 /* Medium screens */
