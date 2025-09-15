@@ -341,4 +341,17 @@ footer p {
 
     .idea-img p {
         position:absolute;
-        padding:5p
+        padding:5px;
+        bottom:0;
+    }
+
+    .examples section {
+        width:18%;
+        padding:10px;
+        margin:0;
+    }
+
+    .hide-small {
+        display:flex;
+    }
+}

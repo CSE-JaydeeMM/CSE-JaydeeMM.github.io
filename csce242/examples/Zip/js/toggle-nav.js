@@ -1,2 +1,3 @@
 document.getElementById("toggle-nav").oneclick = () => {
-    document.getElementById(
+    document.getElementById("nav-items").classList.toggle("hide-small");
+};
